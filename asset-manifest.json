@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Panama_e-shop/static/css/main.cb43c0f0.css",
-    "main.js": "/Panama_e-shop/static/js/main.ff329d61.js",
+    "main.js": "/Panama_e-shop/static/js/main.37b89690.js",
     "index.html": "/Panama_e-shop/index.html",
     "main.cb43c0f0.css.map": "/Panama_e-shop/static/css/main.cb43c0f0.css.map",
-    "main.ff329d61.js.map": "/Panama_e-shop/static/js/main.ff329d61.js.map"
+    "main.37b89690.js.map": "/Panama_e-shop/static/js/main.37b89690.js.map"
   },
   "entrypoints": [
     "static/css/main.cb43c0f0.css",
-    "static/js/main.ff329d61.js"
+    "static/js/main.37b89690.js"
   ]
 }
