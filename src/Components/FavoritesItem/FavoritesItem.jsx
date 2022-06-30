@@ -25,8 +25,8 @@ function FavoritesItem({item, index}) {
         <div className={styles.item}>
             <button onClick={handleSwitchFavorite} className={styles.favorite}>
                 {isFavorite
-                ? <img width={30} src="./images/icon_inFavorite.png" alt="Добавить в избранное" />
-                : <img width={30} src="./images/icon_addFavorite.png" alt="Добавить в избранное" />
+                ? <img width={30} src="images/icon_inFavorite.png" alt="Добавить в избранное" />
+                : <img width={30} src="images/icon_addFavorite.png" alt="Добавить в избранное" />
                 }
             </button>
             <img width={220} src={item.img} alt="Изображение товара"/>

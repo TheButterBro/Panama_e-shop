@@ -14,22 +14,22 @@ function Header({ postIsCart }) {
     return (  
         <header>
             <div className={styles.container}>
-                <Link to="/">
+                <Link to="Panama_e-shop/">
                     <div className={styles.logo}>
                         <p>M</p>
-                        <img width={50} src="./images/logo.svg" alt="Логотип" />
+                        <img width={50} src="images/logo.svg" alt="Логотип" />
                         <p>L</p>
                     </div>
                 </Link>
                 <div className={styles.buttons}>
-                    <Link to="/favorites" className={styles.favoritesLink}>
+                    <Link to="Panama_e-shop/favorites" className={styles.favoritesLink}>
                         <div className={styles.favorite}>
-                            <img src="./images/icon_favorite.svg" alt="Избранное" />
+                            <img src="images/icon_favorite.svg" alt="Избранное" />
                             <p>Избранное</p>
                         </div>
                     </Link>
                     <div onClick={handleIsCart} className={styles.cart}>
-                        <img src="./images/icon_cart.svg" alt="Корзина" />
+                        <img src="images/icon_cart.svg" alt="Корзина" />
                         <p>Корзина</p>
                     </div>
                 </div>

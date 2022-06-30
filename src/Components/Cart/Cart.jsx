@@ -43,12 +43,12 @@ function Cart({ postIsCart }) {
                     className={styles.closeButton}  
                     onClick={handleIsCart}
                 >
-                    <img width={30} src="./images/icon_closeCart.png" alt="Закрыть корзину" />
+                    <img width={30} src="images/icon_closeCart.png" alt="Закрыть корзину" />
                 </button>
                 {isSending 
                 ? 
                     <div className={styles.buyed}>
-                        <img width={100} src="./images/icon_buyed.png" alt="Покупка совершена!" />
+                        <img width={100} src="images/icon_buyed.png" alt="Покупка совершена!" />
                         <h3>Покупка совершена!</h3>
                         <p>Она отобразится на странице "История заказов"</p>
                     </div>

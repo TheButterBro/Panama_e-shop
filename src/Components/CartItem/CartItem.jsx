@@ -10,7 +10,7 @@ function CartItem({id, item, index, removeCartItem}) {
             onClick={() => removeCartItem(item)}
             className={styles.remove} 
             >
-                <img width={20} src="./images/icon_removeCartItem.png" alt="Удалить товар" />
+                <img width={20} src="images/icon_removeCartItem.png" alt="Удалить товар" />
             </button>
             <h3 className={styles.title}>{item.title}</h3>
             <div className={styles.row}>

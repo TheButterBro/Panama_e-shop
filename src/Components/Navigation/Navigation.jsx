@@ -6,10 +6,10 @@ function Navigation() {
     return (
         <nav className={styles.wrapper}>
                 <ul className={styles.navigation}>
-                    <Link to='/' className={styles.link}>
+                    <Link to='Panama_e-shop/' className={styles.link}>
                         <a href="/">Каталог</a>
                     </Link>
-                    <Link to='/orders' className={styles.link}>
+                    <Link to='Panama_e-shop/orders' className={styles.link}>
                         <a href="/">История заказов</a>
                     </Link>
                 </ul>

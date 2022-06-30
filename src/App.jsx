@@ -68,9 +68,9 @@ function App() {
             />}
 
             <Routes>
-              <Route exact path='/' element={<Products/>}/>
-              <Route path='/favorites' element={<Favorites/>}/>
-              <Route path='/orders' element={<Orders/>}/>
+              <Route exact path='Panama_e-shop/' element={<Products/>}/>
+              <Route path='Panama_e-shop/favorites' element={<Favorites/>}/>
+              <Route path='Panama_e-shop/orders' element={<Orders/>}/>
             </Routes>
           </AppContext.Provider>
         </div>
