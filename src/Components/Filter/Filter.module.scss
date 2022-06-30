@@ -1,0 +1,20 @@
+.filter {
+    
+    input { 
+        height: 35px;
+        width: 300px;
+
+        border: 1px solid #C5C5C5;
+        outline: none;
+        padding: 8px 15px;
+
+        font-size: 16px;
+        margin-right: 20px;
+    }
+    select {
+        font-size: 18px;
+        border: none;
+
+        outline: none;
+    }
+}

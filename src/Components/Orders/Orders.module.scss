@@ -1,0 +1,19 @@
+.head {
+    display: flex;
+    margin-bottom: 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.products {
+    padding: 40px;
+}
+.body {
+    display: flex;
+    column-gap: 26px;
+    flex-wrap: wrap;
+}
+.empty {
+    margin: 0 auto;
+    margin-bottom: 60px;
+}

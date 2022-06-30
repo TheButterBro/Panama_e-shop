@@ -1,0 +1,50 @@
+.body {
+    position: relative;
+    width: 100%;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+
+    border: 2px solid rgb(240, 240, 240);
+    transition: all .2 ease-in-out;
+    &:hover {
+        border: 2px solid rgb(220, 220, 220);
+    }
+    .remove {
+        position: absolute;
+
+
+        right: 10px;
+        border: none;
+        outline: none;
+        background-color: transparent;
+
+        opacity: .2;
+
+        transition: opacity .15s ease-in-out;
+        cursor: pointer;
+        &:hover {
+            opacity: .35;
+        }
+    }
+    .title {
+        margin-bottom: 10px;
+    }
+    .row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        img {
+
+        }
+        .price {
+
+            p {
+                opacity: .7;
+                font-weight: bold;
+            }
+            b {
+                font-weight: bold;
+            }
+        }
+    }
+}
